@@ -1,0 +1,7 @@
+{
+  "name": "cs-landscape",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

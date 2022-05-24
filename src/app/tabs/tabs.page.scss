@@ -1,1 +1,38 @@
+@media (orientation: landscape) {
+    .tabs {
+        background: white;
+        border-radius: 20px 20px 0px 0px;
+        box-shadow: -1px -1px 5px 1px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        width: 40vw;
+        position: fixed;
+        left: 10vw;
+        bottom: 0;
 
+        ion-tab-bar {
+            --border: none;
+            --background: transparent;
+            border-radius: 20px;
+        }
+    }
+}
+
+// This can be omitted for portrait mode as it will default to the standard Ionic tab look
+// but I wanted to get the box shadow and padding tweaks similar to landscape
+@media (orientation: portrait) {
+    .tabs {
+        background: white;        
+        box-shadow: -1px -1px 5px 1px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        width: 100%;
+        position: fixed;
+        
+        bottom: 0;
+
+        ion-tab-bar {
+            --border: none;
+            --background: transparent;
+            border-radius: 20px;
+        }
+    }
+}

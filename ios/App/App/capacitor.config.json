@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "cs-landscape",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
